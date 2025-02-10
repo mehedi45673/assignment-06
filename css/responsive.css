@@ -1,0 +1,43 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) { 
+ .Card .logo {
+    font-size: 16px;
+   }
+  .grid-box{
+   grid-template-columns: 1fr !important;
+   grid-template-rows: repeat(3, auto
+   );
+  
+  }
+  .grid-box .grid-item{
+    width: 100%;
+   }
+  .range-content .range-items .item .range {
+   height: 14px;
+    width: 75%;
+   }
+   .range-content .range-items .item h3,
+   .range-content .range-items .item h4{
+    font-size:  16px;
+   }
+   .Card .radio-box .check2 label, .Card .radio-box .check1 label {
+    font-size: 10px;
+   }
+   .Card .text-align p {
+    font-size: 10px;
+   }
+   .Card .radio-box .check2 input[type=checkbox], .Card .radio-box .check1 input[type=checkbox] {
+    height: 10px;
+    width: 10px;
+   }
+  .content-text .pb-5 {
+    padding-bottom: 1rem!important;
+   }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .grid-box .grid-item{
+    padding: 12px 32px;
+   }
+ }
